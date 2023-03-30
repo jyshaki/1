@@ -5,7 +5,7 @@ body
     margin: 0;
 }
 
-/* ------------ header stylings ------------ */
+/* ------------ hs stylings ------------ */
 header h1 
 {
     color: #fcfcfc;
@@ -114,7 +114,9 @@ header h3
     margin: 0 0 .2rem 0;
 }
 
-/* ------------ classes and id's stylings ------------ */
+/* ------------------------ classes and id's stylings ------------------------ */
+
+/* ------------ navigation styling ------------ */
 
 .navigation 
 {
@@ -157,6 +159,8 @@ header h3
 {
     border-left: 1px solid #ffffff18;
 }
+
+/* ------------ header styling ------------ */
 
 .container 
 {
@@ -204,12 +208,14 @@ header h3
     width: 125px;
 }
 
+/* ------------ body-part styling ------------ */
+
 #welcome-site 
 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
     overflow: hidden;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-auto-rows: 1fr;
     border-bottom: 7px solid #b7ce48;
 }
@@ -219,7 +225,7 @@ header h3
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
-    width: 80%;
+    /* width: 80%; */
     margin: 5rem 2rem 5rem 2rem;
     padding: 0;
 }
@@ -230,9 +236,12 @@ header h3
     flex-direction: column;
     box-sizing: content-box;
     align-items: left;
+    padding: 0 3rem 0 3rem;    
+}
+#latest-news #ln-title
+{
+    display: flex;
     background-color: #333;
-    
-    margin-bottom: calc(100% - 10px);
 }
 #latest-news .container:nth-child(2n)
 {
@@ -268,6 +277,8 @@ header h3
     border-radius: 3px;
     padding: .5rem;
 }
+
+/* ------------ footer styling ------------ */
 
 #footer 
 {
